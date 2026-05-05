@@ -2,7 +2,7 @@ const NOME = "Rafael Costa";
 let tituloProfissional = "Garoto quase de Programa / 244 nato";
 let minhaBio = "Sou um camarada esforçado. 244 mas não sabe dar grau" +
     " Antes eu não era nada";
-let anoFormatura = 2027;
+let anoFormatura = 2026;
 
 let mesFormatura = 12;
 let diaFormatura = 31;
@@ -36,4 +36,4 @@ document.getElementById("meuNome").innerText = NOME;
 document.getElementById("tituloProfissional").innerText = tituloProfissional;
 document.getElementById("minhaBio").innerText = minhaBio;
 document.getElementById("anoFormatura").innerText = "Ano de formatura: " + anoFormatura;
-document.getElementById("tempoRestanteParaFormatura".innerText) = `Tempo restante para formatura: ${anoFormatura - anoAtual} anos, ${mesFormatura - mesAtual} meses e ${diaFormatura - diaAtual}`;
+document.getElementById("tempoRestanteParaFormatura").innerText = `Tempo restante para formatura: ${anoFormatura - anoAtual} anos, ${mesFormatura - mesAtual} meses e ${diaFormatura - diaAtual} dias.`;
