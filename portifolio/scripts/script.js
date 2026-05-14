@@ -3,7 +3,6 @@ let tituloProfissional = "Garoto quase de Programa";
 let minhaBio = "Sou um camarada esforçado, gente boa." +
     " Antes eu não era nada hoje continuo igual antes";
 let anoFormatura = 2026;
-
 let mesFormatura = 12;
 let diaFormatura = 31;
 let anoIngresso = 2025;
